@@ -1,0 +1,21 @@
+CREATE TABLE `vectorForms` (
+	`NumeCont` INT NOT NULL AUTO_INCREMENT,
+	`Fecha` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+	`Field1` TEXT NULL,
+	`Field2` TEXT NULL,
+	`Field3` TEXT NULL,
+	`Field4` TEXT NULL,
+	`Field5` TEXT NULL,
+	`Field6` TEXT NULL,
+	`Field7` TEXT NULL,
+	`Field8` TEXT NULL,
+	`Field9` TEXT NULL,
+	`Field10` TEXT NULL,
+	`Field11` TEXT NULL,
+	`Field12` TEXT NULL,
+	`Field13` TEXT NULL,
+	`Field14` TEXT NULL,
+	`Field15` TEXT NULL,
+	PRIMARY KEY (`NumeCont`)
+)
+COLLATE='utf8mb4_general_ci';
